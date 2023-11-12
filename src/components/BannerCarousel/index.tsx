@@ -12,8 +12,6 @@ function index() {
         "https://cdn.getir.com/misc/622a6d18b2e2fe3a8e809894_banner_tr_1646947639211.jpeg"
     ])
 
-    
-
     return (
       <FlatList 
       data={banners}
