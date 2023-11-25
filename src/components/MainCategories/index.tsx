@@ -4,7 +4,10 @@ import CategoryItem from "../../components/CategoryItem"
 import categoriesGetir from '../../../assets/categoriesGetir'
 import { Category } from '../../models'
 
+
+
 function index() {
+
 
     const [categories, setCategories] = useState<Category[]>(categoriesGetir)
 

@@ -17,7 +17,7 @@ function index() {
 
                 <View style={styles.headerTwo} >
                     <Text style={{ fontSize: 10, fontWeight: 'bold', color: '#5D3EBD' }} >TVS</Text>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#5D3EBD' }} >13
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#5D3EBD' }} >12
                      <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#5D3EBD' }} >dk</Text> 
                      </Text>
                 </View>
