@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import CategoryFiltering from '../../components/CategoryFiltering'
 import { Category } from '../../models'
 import TypeFiltering from '../../components/TypeFiltering'
+import ProductItem from '../../components/ProductItem'
+import ProductContainer from '../../components/ProductContainer'
 
 function index(props) {
 
@@ -12,6 +14,7 @@ function index(props) {
     <ScrollView>
       <CategoryFiltering category={category} />
       <TypeFiltering />
+      <ProductContainer/>
     </ScrollView>
   )
 }
