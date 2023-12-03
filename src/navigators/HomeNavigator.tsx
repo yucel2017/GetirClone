@@ -10,7 +10,6 @@ const Stack = createStackNavigator()
 
 function MyStack({ navigation, route }) {
 
-
     const tabHiddenRoutes = ["ProductDetails"];
 
     React.useLayoutEffect(() => {
